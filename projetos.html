@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo - Meus Projetos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+colocar o cv 
+        <header class="main-header">
+            <div class="header-content">
+                <a href="https://db.tec.br/" class="logo" aria-label="Ir para o site da DBServer">
+                    <img src="public/theme/logo_db.svg" alt="Logo DBServer">
+                </a>
+
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html#sobre">Sobre</a></li>
+                        <li><a href="index.html#curriculo">Currículo</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                    </ul>
+                </nav>
+
+                <div class="social-links">
+                    <a href="https://github.com/LeonardoEnnes/" aria-label="GitHub"><img src="./public/social/icon_github.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/in/leonardoennes/" aria-label="LinkedIn"><img src="./public/social/icon_linkedin.svg" alt=""></a>
+                    <a href="mailto:leonardo.ennes@db.tec.br" aria-label="Email"><img src="./public/social/icon_email.svg" alt=""></a>
+                </div>
+            </div>
+        </header>
+
+        <main class="content-wrapper">
+            <section class="projects-hero">
+                <p class="projects-subtitle">Meus</p>
+                <h1 class="projects-title">Projetos</h1>
+            </section>
+
+            <section class="projects-grid">
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="./public/projects/insight.png" alt="Insight-ECG API">
+                    </div>
+                    <div class="card-content">
+                        <h3>Insight-ECG API</h3>
+                        <span class="card-tech">FASTAPI, PYTHON, GEMINI AI, DOCKER</span>
+                        
+                        <p>Prova de Conceito do meu TCC para análise automatizada de biossinais de eletrocardiogramas. Integra LLMs para triagem clínica e auxílio à decisão, estruturada sob Clean Architecture.</p>
+                        
+                        <ul style="font-size: 0.8rem; color: #555; margin-bottom: 1rem; padding-left: 1.2rem;">
+                            <li><strong>IA & LLM:</strong> Integração com Google Gemini para inferência clínica.</li>
+                            <li><strong>Alta Performance:</strong> Framework FastAPI assíncrono.</li>
+                            <li><strong>Arquitetura:</strong> Clean Architecture com Pydantic para validação estrita.</li>
+                        </ul>
+
+                        <div class="card-actions">
+                            <a href="https://github.com/LeonardoEnnes/poc-insight-ecg-api" class="btn-primary" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="./public/projects/barber.png" alt="Barber Schedule API">
+                    </div>
+                    <div class="card-content">
+                        <h3>Barber Schedule API</h3>
+                        <span class="card-tech">Java 21, Maven, Spring, PostgreSQL, flyway, JUnit, Mockito, Jest, Docker, SWAGGER</span>
+                        
+                        <p>Implementação de uma API REST para agendamento de serviços em uma barbearia, estruturada sob os princípios da Clean Architecture para garantir um domínio desacoplado e escalável.</p>
+                        <ul style="font-size: 0.8rem; color: var(--color-text-light); margin-bottom: 1.5rem; padding-left: 1.2rem;">
+                            <li><strong>Testes Unitários:</strong> Cobertura interna com JUnit e Mockito.</li>
+                            <li><strong>Testes Funcionais:</strong> Bateria de testes de API automatizados utilizando Node.js, Jest e Supertest.</li>
+                        </ul>
+                        <div class="card-actions">
+                            <a href="https://github.com/LeonardoEnnes/barber-schedule-api" class="btn-primary" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+        
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="./public/projects/fitstream.png" alt="FitStream UI">
+                    </div>
+                    <div class="card-content">
+                        <h3>FitStream <span style="font-size: 0.65rem; background: #FFD93D; color: #1A1A1A; padding: 2px 6px; border-radius: 4px; vertical-align: middle; margin-left: 8px; font-weight: bold; letter-spacing: 0.5px;">EM DESENVOLVIMENTO</span></h3>
+                        
+                        <span class="card-tech">REACT, TYPESCRIPT, SHADCN, ZUSTAND, TAILWIND, SPRING BOOT, KAFKA, DOCKER, JUNIT</span>
+                        
+                        <p>Sistema full-stack de telemetria para gestão de saúde e treinos em tempo real. Transforma o registro de ações diárias em insights visuais imediatos para otimização de rotinas baseada em dados reais.</p>
+
+                        <div class="card-actions">
+                            <a href="https://github.com/LeonardoEnnes/fitstream-app" class="btn-primary" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="./public/projects/no-wallpapper.jpg" alt="Blog pessoal">
+                    </div>
+                    <div class="card-content">
+                        <h3>Crud Pessoas </h3>
+                        <span class="card-tech">Spring, Java, Swagger</span>
+                        <p>Desafio técnico que implementa uma API REST para gestão de pessoas e endereços, focada na construção de um CRUD completo</p>
+                        <div class="card-actions">
+                            <a href="https://github.com/LeonardoEnnes/person-api" class="btn-primary" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+</body>
+</html>
